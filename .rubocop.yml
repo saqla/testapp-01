@@ -6,12 +6,15 @@ AllCops:
     - vendor/bundle/**/*
     - node_modules/**/*
 
+# a~z順に並べる
 Bundler/OrderedGems:
   Enabled: true
 
+# 最後に空白行を入れる
 Layout/EmptyLines:
   Enabled: true
 
+# 無駄な空白行を消す
 Layout/TrailingEmptyLines:
   Enabled: true
 
